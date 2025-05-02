@@ -7,7 +7,7 @@ import DashBoard from './screens/DashBoard.js'
 export default function App(){
   return(
     <NavigationContainer>
-      <DashBoard />
+      <Login />
       </NavigationContainer>
   )
 }

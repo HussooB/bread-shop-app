@@ -5,11 +5,11 @@ export default function app(navigation){
   return (
     <View style={styles.Container}>
       <TouchableOpacity style={[styles.button,{backgroundColor:"blue"}]} >
-        <Text style={[styles.buttonText,{color:'white'}]}>Login</Text>
+        <Text style={[styles.buttonText,{color:'white',marginLeft:3}]}>Login</Text>
       </TouchableOpacity>
       <View style={{marginTop:7}}/> 
       <TouchableOpacity style={styles.button} >
-        <Text style={styles.buttonText}>Signup</Text>
+        <Text style={[styles.buttonText,{marginLeft:22}]}>Signup</Text>
       </TouchableOpacity>
       </View>
   )
@@ -24,8 +24,11 @@ const styles=StyleSheet.create(
       alignItems:"center"
     },
   button: {
+    width:3,
+    
     borderColor:"blue",
     borderWidth:0.4,
+    borderRadius:5,
     backgroundColor: 'white',
     paddingVertical: 12,
     paddingHorizontal: 24,
@@ -37,7 +40,7 @@ const styles=StyleSheet.create(
   },
   buttonText: {
     color: 'blue',
-    fontSize: 16,
+    fontSize: 17,
     fontWeight: "bold"
     
   }
