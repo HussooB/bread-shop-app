@@ -23,16 +23,8 @@ Managing a bread shop involves tracking daily production, sales, and revenue, wh
 
 1. **Install dependencies:**
 
-```bash
-npm install
-2. **Start the app using Expo:**
-
-```bash
-npx expo start
-
-### ✅ 3. Now paste the **Tech Stack Table** after the above:
-
-```markdown
+   ```bash
+   npm install
 ## 🧱 Tech Stack
 
 | Frontend            | Backend              | Database |
